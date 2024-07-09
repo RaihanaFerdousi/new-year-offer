@@ -14,11 +14,11 @@ body {
 }
 
 header {
-    width: calc(100% - 300px); /* Subtracting the left and right margin */
-    height: calc(100vh - 100px); /* Subtracting the top and bottom margin */
+    width: calc(100% - 300px); 
+    height: calc(100vh - 100px);
     margin: 50px 150px;
     margin-bottom: 150px;
-    box-sizing: border-box; /* Ensures padding and border are included in the width and height */
+    box-sizing: border-box;
 }
 
 .banner {
@@ -73,4 +73,48 @@ header {
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 30px;
+}
+
+/* midnight party */
+
+.midnight-party{
+    width: calc(100% - 300px); 
+    height: calc(100vh - 100px);
+    margin: 50px 150px;
+    margin-bottom: 150px;
+    box-sizing: border-box;
+}
+
+.party-container{
+    display: flex;
+    gap: 40px;
+    border-radius: 10px;
+    padding: 50px 60px;
+    color: white;
+    align-items: center;
+    background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.7), rgba(255, 255, 255, 0)), url('/images/Vectorrr.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.party-title{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.party-description{
+    color: #dcdcdc;
+    margin-bottom: 30px;
+}
+
+.party-button{
+    padding: 12px 20px;
+    background-color: transparent;
+    color: white;
+    border: solid 1px #dcdcdc;
+}
+
+.party-image{
+    height: 400px;
 }
